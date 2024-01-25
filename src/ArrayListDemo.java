@@ -6,11 +6,10 @@ public class ArrayListDemo {
         ArrayList list = new ArrayList();
         System.out.println(list.size());
 
-        list.add(1);
-        System.out.println(list.size());
-        list.add("A");
-        list.add(2);
-        list.add(null);
+        list.add(1); //Integer
+        list.add("A"); //String
+        list.add(2); //Integer
+        list.add(null); //Object
         System.out.println(list);
 
         //[1, A, 2, null] ...
