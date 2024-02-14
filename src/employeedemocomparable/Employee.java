@@ -1,4 +1,4 @@
-package employeedemo;
+package employeedemocomparable;
 
 
 import org.jetbrains.annotations.NotNull;
@@ -77,6 +77,19 @@ public class Employee implements Comparable{
 
     }
 
+  //  Employee{id=1, empName='Jeeva', salary=50000.0, department='Engineering'}
+    //  Employee{id=2, empName='Jyothi', salary=55000.0, department='Engineering'}
+    //  Employee{id=3, empName='Alex', salary=40000.0, department='Engineering'}
+    //  Employee{id=4, empName='Shwetha', salary=15000.0, department='HR'}
+    //  Employee{id=5, empName='Xin', salary=50000.0, department='Engineering'}
+    //  Employee{id=6, empName='Brigio', salary=50000.0, department='Engineering'}
+
+/*    { 50000, 55000, 40000, 15000, 50000 }
+       this,  passed, passed*/
+
+    //
+
+
     // compareTo method returns -ve when obj1 has to come before obj2
     //compareTo method returns +ve when obj1 has to come after obj2
     //compareTo method returns 0 when obj1 and obj2 are equal
@@ -84,3 +97,10 @@ public class Employee implements Comparable{
     //   when obj1 is less than obj2 then compareTo method return -1   (Negative value)
     //   when obj1 is greater then obj2 then compareTo method return 1 (positive value)
 }
+
+
+//Comparable interface -> default sorting order (natural sorting order)
+// If you are not satisfied with default or natural sorting order and you want some
+// customized sorting them you will move to Comparator
+// if you add duplicate objects it will take only one object.
+

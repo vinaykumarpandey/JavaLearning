@@ -1,4 +1,4 @@
-package employeedemo;
+package employeedemocomparable;
 
 public class Test {
 
