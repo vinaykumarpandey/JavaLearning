@@ -1,6 +1,7 @@
 package mapdemo;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class HashMapDemo2 {
@@ -8,7 +9,7 @@ public class HashMapDemo2 {
     public static void main(String[] args) {
 
 
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> map = new LinkedHashMap();
 
         map.put("8920970051", "Vinay Pandey");
         map.put("1234567890", "Jyothi");

@@ -26,8 +26,8 @@ public class HashMapDemo {
         //4 ways to iterate
         //1. using iterator   -- > covered
         //2. using Map.Entry set ---> covered
-        //3. Using object directly - java 8 - simple
-        //4. if your key is stored in an array or arraylist then iterate over the array and get the key value pair
+        //3. Using object directly - java 8 - simple - covered
+        //4. if your key is stored in an array or arraylist then iterate over the array and get the key value pair -> covered
 
         //Using Iterator
 
