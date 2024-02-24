@@ -1,9 +1,19 @@
 package stringdemo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class StringDemo {
 
-    public static void main(String[] args) {
+   public static List<Integer> integerList = new ArrayList<>(); //global variable
 
+    public StringDemo( List<Integer> integerList) {
+        this.integerList = integerList;
+    }
+
+    public static void main() {
+
+        integerList.add(90);
 
         String str = "Bangalore";  //str = 1000
         String str1 ="Bangalore";  //str1 = 1000
@@ -25,5 +35,16 @@ public class StringDemo {
 
 
     }
+
+  public void  add(){
+         integerList.add(19);
+    }
+
+    public void  multiple(){
+        integerList.add(integerList.get(0)*2);
+
+    }
+
+
 
 }
