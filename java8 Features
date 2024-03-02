@@ -1,0 +1,105 @@
+JAVA 7 - 2011
+JAVA 8 2014 - Major release
+java 9
+....
+
+
+java 21
+
+Java 8 Features -
+
+java 8 supports functional programming
+
+1. Lambda Expression -> Done
+2. Functional Interface - > Done
+     Predicate
+     Functions
+3. Default Methods -> Done
+4. Static methods -> Done
+4. Double Colon Operator(::)
+5. Stream Api
+6. Date and Time  - LocalDateTime - > java8 or post java 8
+
+
+
+----------------------------------------
+
+Lambda Expression -
+
+Lambda expression is just an anonymous (nameless) function.
+that means the function which doesn't have name, return type and access modifiers
+
+Ex1 -
+
+Before Java 8
+
+
+public void m1(){
+  System.out.println("Hello");
+}
+
+access modifiers - public
+return type - void
+name of the function - m1
+
+
+() -> {
+  System.out.println("Hello");
+}
+
+() -> { System.out.println("Hello"); }
+
+if there is only one line you can remove the curly braces as well
+
+() ->  System.out.println("Hello");
+
+--------------------------------------------------------------------------------
+
+Functional Interfaces -
+
+Those interfaces contains only one abstract method is called Functional interface
+Single Abstract Method (SAM)
+
+Runnable -> run()
+Callable  -> T call()
+Comparator -> compare(a, b)
+Comparable -> compareTo
+ActionListener -> actionPerformed
+
+Demo
+
+   when you use your own interface as functional interface..
+
+
+Functional interface can have multiple default and static methods but they should be having only one abstract method
+
+Default method and multiple Inheritance -> done
+Static methods inside interfaces
+
+
+There are some functional interface that java-8 by default provides us
+
+Predicate ->
+
+Predicate is a function with a single argument and return boolean value
+
+ Boolean Predicate<T>
+
+   problem statement -
+
+    If I am passing a value 100 and I want to check if the value is greater than 10 or not
+
+
+ Functions -
+
+ Take one input and return one output
+
+ Function<String , Integer>
+  -  R apply(T t)
+
+
+
+
+
+
+  -
